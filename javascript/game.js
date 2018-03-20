@@ -12,12 +12,12 @@ $(document).ready(function() {
 	newGame();
 
 	function newCrystals () {
-		//it makes 4 random number which is not same
+		//it makes 4 random number which are not same
 		var numbers = [];
 		console.log(numbers);
 			while(numbers.length < 4){
 
-			//Math.ceil is a Round a number upward to its nearest integer  
+			//Math.ceil is a round a number upward to its nearest integer  
 			//Return a random number between 1 and 12
 			  var randomnumber = Math.ceil(Math.random()*12 )
 			  var found = false;
@@ -30,7 +30,7 @@ $(document).ready(function() {
 			  	{numbers[numbers.length]=randomnumber;}
 			}
 		console.log(numbers);		
-        //it makes 4 <img> as crysta with diffrent value
+        //it makes 4 <img> as crystals with a diffrent value
 		for (i = 0; i < numbers.length; i++) {
 			var imageCrystal = $("<img>");
 			imageCrystal.attr('data-num', numbers[i]);
