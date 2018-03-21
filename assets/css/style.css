@@ -1,9 +1,16 @@
 body {
 	background-image: url("../../images/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 	font-family: 'Press Start 2P', cursive;
 }
 
 h1{
+	text-align: center;
+}
+
+#container{
+	margin-top: 16pt;
 	text-align: center;
 }
 
@@ -13,21 +20,21 @@ h1{
 }
 
 #instructions {
-	margin: auto;
+	margin-top: 20pt;
 }
 
 #guessNum {
-	margin: auto;
 	font-size: 30px;
 }
 
 #results {
-	margin: auto;
+	margin-top: 20pt;
 	font-size: 30px;
 }
 
 #crystals {
-	margin: auto;
+	margin-top: 20pt;
+	align-content: center;
 }
 
 .crystalImage {
@@ -36,16 +43,7 @@ h1{
 	margin-left: 10px;
 }
 
-
-
 #totalScore {
 	margin: auto;
 	font-size: 30px;
-}
-
-h2 {
-	background: #009688;
-	padding: 20px;
-	border: solid 1px #ddd;
-	width: 30%;
 }
