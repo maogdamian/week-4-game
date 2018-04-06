@@ -3,6 +3,7 @@ body {
 	background-size: cover;
 	background-repeat: no-repeat;
 	font-family: 'Press Start 2P', cursive;
+	margin-top: 20pt;
 }
 
 h1{
@@ -20,7 +21,11 @@ h1{
 }
 
 #instructions {
-	margin-top: 20pt;
+	margin-top: 40pt;
+}
+
+#scoring {
+	margin-top: 40pt;
 }
 
 #guessNum {
@@ -28,19 +33,22 @@ h1{
 }
 
 #results {
-	margin-top: 20pt;
+	margin-top: 40pt;
 	font-size: 30px;
 }
 
 #crystals {
 	margin-top: 20pt;
-	align-content: center;
 }
 
 .crystalImage {
 	height: 111px;
 	border: solid 1px #272525;
 	margin-left: 10px;
+}
+
+.row2 {
+	text-align: center;
 }
 
 #totalScore {

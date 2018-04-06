@@ -2,8 +2,8 @@
 <html>
 <head>
 	<title>Crystal Collectors</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
     <script type="text/javascript" src="javascript/game.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
@@ -27,29 +27,39 @@
 		</div>
 	</div>
 	<div class = "container">
-		<div class="row">
-			<div class="col-1"></div>
-			<div class="col-5">
-				<div id ="totalScore">
-					Your Total Score is: <span id ="yourScore">0</span>
-					</div>
-	   		</div>
-	   		<div class="col-5">
-				<div id="guessNum">
-					Number to Guess: <span class="value"></span> 	
-					</div>
-			<div class="col-1"></div>
+		<div id= "scoring">
+			<div class="row">
+				<div class="col-1"></div>
+				<div class="col-5">
+					<div id ="totalScore">
+						Your Total Score is: <span id ="yourScore">0</span>
+						</div>
+		   		</div>
+		   		<div class="col-5">
+					<div id="guessNum">
+						Number to Guess: <span class="value"></span> 	
+						</div>
+				<div class="col-1"></div>
+				</div>
 			</div>
 		</div>
 	</div>
 	<div class = "container">
-		<div id="crystals"></div>
+		<div class= "row">
+			<div class = "col-2"></div>
+			<div class = "col-8">
+				<div id="crystals"></div>
+			</div>
+			<div class = "col-2"></div>
+		</div>
 	</div>
 	<div class = "container">
-		<div id="results">
-				<span id="status"></span>
-				Wins: <span id="win"></span>
-				Losses: <span id="loss"></span>
+		<div class= "row">
+				<div id="results">
+						<span id="status"></span>
+						Wins: <span id="win"></span>
+						Losses: <span id="loss"></span>
+				</div>
 		</div>
 	</div>
 </div>
