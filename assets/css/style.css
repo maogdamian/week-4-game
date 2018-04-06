@@ -33,7 +33,7 @@ h1{
 }
 
 #results {
-	margin-top: 40pt;
+	margin: auto;
 	font-size: 30px;
 }
 
@@ -48,7 +48,7 @@ h1{
 }
 
 .row2 {
-	text-align: center;
+	margin-top: 40pt;
 }
 
 #totalScore {
